@@ -1,0 +1,4 @@
+FROM ubuntu:16.04
+MAINTAINER José M. Cantera "jmcanterafonseca@gmail.com"
+ENV REFRESHED_AT 2018-01-31
+RUN apt-get -qq update
